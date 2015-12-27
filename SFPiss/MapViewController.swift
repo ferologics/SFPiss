@@ -25,7 +25,7 @@ class MapViewController: UIViewController, MKMapViewDelegate
     @IBOutlet weak var mapView: MKMapView!
     @IBAction func locate(sender: AnyObject) { showCurrentLocation() }
     @IBAction func iSmellPiss(sender: AnyObject) {}
-    var regionRadius: CLLocationDistance { return 1000 }
+    var regionRadius: CLLocationDistance { return 230 }
     
     override func viewDidLoad()
     {
